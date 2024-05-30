@@ -8,3 +8,5 @@ Prompt: Starship\
 Bar: AGS
 
 AGS config stolen from https://github.com/Aylur/dotfiles/tree/ags-pre-ts with some changes
+
+will figure out deps later
