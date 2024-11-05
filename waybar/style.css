@@ -1,0 +1,91 @@
+* {
+    border:        none;
+    border-radius: 0;
+    font-family:   "Source Sans Pro", "FontAwesome 6 Free";
+    font-size:     15px;
+    box-shadow:    none;
+    text-shadow:   none;
+    transition-duration: 0s;
+}
+
+window#waybar {
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0);
+}
+
+window#waybar.solo {
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.modules-right {
+    border-radius: 4px;
+    background: rgb(50, 50, 50);
+    padding: 3px 3px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#workspaces {
+    margin: 5px 5px;
+    padding: 3px 3px;
+    border-radius: 4px;
+    background: rgb(50, 50, 50);
+}
+
+#workspaces button {
+    padding: 0px 2px;
+    background-color: rgb(150, 150, 150);
+    margin: 0 1px;
+    border-radius: 4px;
+    min-height: 0px;
+}
+
+#workspaces button.active {
+    background-color: rgb(235, 235, 235);
+}
+
+#battery, 
+#cpu, 
+#memory, 
+#bluetooth,
+#temperature,
+#backlight {
+    margin: 0px 0px 0px 15px;
+}
+
+#pulseaudio {
+    margin: 0px 5px 0px 15px;
+}
+
+#network {
+    margin: 0px 0px 0px 5px;
+}
+
+#clock {
+    margin: 5px 0px;
+    border-radius: 4px;
+    background: rgb(50, 50, 50);
+    padding: 3px 3px;
+}
+
+#battery.warning {
+   color: rgba(255, 210, 4, 1);
+}
+
+#battery.critical {
+    color: rgba(238, 46, 36, 1);
+}
+
+#bluetooth.disabled {
+    color: rgb(100, 0, 0);
+}
+
+#bluetooth.off {
+    color: rgb(100, 0, 0);
+}
+
+#bluetooth.connected {
+    color: rgba(0, 130, 252, 1);
+}
